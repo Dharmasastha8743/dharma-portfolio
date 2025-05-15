@@ -8,14 +8,28 @@ export default function Portfolio() {
         <p className="text-xl">.NET Core & Full Stack Developer | Automation Expert</p>
         <p>2+ years of experience building secure, scalable applications</p>
       </header>
-<a
-  href="https://flowcv.com/resume/ducdnwjm3env"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition"
->
-  View Resume
-</a>
+<div className="flex gap-4 mt-6 justify-center">
+  {/* View Resume Button */}
+  <a
+    href="https://flowcv.com/resume/ducdnwjm3env"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition"
+  >
+    View Resume
+  </a>
+
+  {/* Download Resume Icon Button */}
+  <a
+    href="/Dharmasastha - software developer.pdf"
+    download
+    className="text-blue-600 hover:text-blue-800 transition text-2xl"
+    title="Download Resume"
+  >
+    📥
+  </a>
+</div>
+
 
       <section className="mb-10">
         <h2 className="text-2xl font-semibold mb-4">Projects</h2>
