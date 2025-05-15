@@ -21,7 +21,7 @@ export default function Portfolio() {
 
   {/* Download Resume Icon Button */}
   <a
-    href="/Dharmasastha - software developer.pdf"
+    href="/Dharmasastha - software developer.pdf" 
     download
     className="text-blue-600 hover:text-blue-800 transition text-2xl"
     title="Download Resume"
